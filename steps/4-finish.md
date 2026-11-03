@@ -10,9 +10,9 @@
 
 ## Assemble
 
-If you printed a PLA part and a TPU part, join them now.
+If you printed a PLA mount and a TPU cushion, glue them together. Let the glue cure fully before you wear it.
 
-<!-- TODO: how the parts join -->
+<!-- TODO: which glue I used -->
 
 ## Test
 

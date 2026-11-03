@@ -4,6 +4,8 @@ Scan your face with your phone, shape a VR face gasket around it in Blender, and
 
 Everything here is free except the filament.
 
+![Face scan and base gasket lined up in Blender](images/blender-fit.webp)
+
 <!-- PHOTO: finished gasket on the headset, next to the stock one -->
 
 ## What you need
@@ -12,8 +14,11 @@ Everything here is free except the filament.
 |---|---|
 | **Phone** | Any phone that can run [Polycam](https://play.google.com/store/apps/details?id=ai.polycam) |
 | **Software** | [Blender](https://www.blender.org/) and [Bambu Studio](https://bambulab.com/en/download/studio) (free) |
+| **Base gasket** | A face gasket model for your headset from [Printables](https://www.printables.com/) |
 | **Printer** | A printer that handles TPU. I used a Bambu Lab printer |
-| **Filament** | 95A TPU for the soft cushion, PLA for stiff parts |
+| **Filament** | 95A TPU for the soft cushion, PLA for the mount if it needs to be stiff |
+| **Drying** | A filament dryer, or a printer that can dry filament |
+| **Glue** | For joining a PLA mount to a TPU cushion |
 | **Finishing** | Flush cutters, sandpaper (fine grit) |
 
 ## Steps
@@ -27,11 +32,11 @@ Everything here is free except the filament.
 
 | Setting | Value | Why |
 |---|---|---|
-| Material | 95A TPU | Soft and flexible against the skin |
+| Material | 95A TPU, dried at 55 °C for 6 h | Soft and flexible; dry filament prints clean |
 | Walls | 1 | A thin shell squishes instead of pressing |
 | Infill | 7% | Low infill keeps it soft |
 | Orientation | 45°, face side up | Avoids long overhangs on the curve and gives a clean surface where it touches your face |
-| Supports | On | Needed for the angled overhangs |
+| Supports | On (tree supports) | Needed for the angled overhangs |
 
 ## Folders
 

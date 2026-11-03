@@ -2,7 +2,11 @@
 
 Load the STL into [Bambu Studio](https://bambulab.com/en/download/studio) (or your own slicer) and print it in TPU.
 
-<!-- PHOTO: part placed at 45° in Bambu Studio -->
+## Dry the TPU first
+
+TPU soaks up moisture from the air. Wet TPU strings, bubbles and prints rough surfaces.
+
+**Dry it at 55 °C for 6 hours** before printing, in a filament dryer or the printer's drying function.
 
 ## TPU settings
 
@@ -12,18 +16,22 @@ Load the STL into [Bambu Studio](https://bambulab.com/en/download/studio) (or yo
 | Walls | 1 | A thin shell squishes instead of pressing |
 | Infill | 7% | Low infill keeps the cushion soft |
 | Orientation | 45°, face side up | Avoids long overhangs on the curve and keeps the surface that touches your face clean |
-| Supports | On | Needed for the angled overhangs |
+| Supports | On (tree supports) | Needed for the angled overhangs |
 
 Want it softer? Lower the infill. Too floppy? Raise it a little.
 
+![Two gasket halves sliced in Bambu Studio, angled with tree supports](../images/bambu-slice.webp)
+
+*Example: two halves on one plate with tree supports. About 34 g of TPU for the model and 11 g for supports, around 5 hours of printing.*
+
 ## PLA parts
 
-If you split the gasket in Blender, print the stiff part in PLA with normal settings. It doesn't need to be soft, it needs to hold its shape and fit the headset.
+If you split the gasket in Blender, print the mounting part in PLA with normal settings. It doesn't need to be soft, it needs to hold its shape, fit the headset and hold the screws.
 
 ## TPU tips
 
 - Print TPU slowly. Fast printing makes soft filament jam.
-- Keep the filament dry. Wet TPU strings and bubbles.
+- Keep the spool dry while printing, too. A dry box helps on long prints.
 
 <!-- TODO: failed prints and what I changed -->
 
