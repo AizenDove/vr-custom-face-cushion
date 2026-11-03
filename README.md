@@ -6,10 +6,6 @@ Everything here is free except the filament.
 
 <!-- PHOTO: finished gasket on the headset, next to the stock one -->
 
-## Credit
-
-This guide builds on [How to Make a Custom DIY Facial Interface or Cushion for Any VR Headset](https://www.youtube.com/watch?v=hF4OpnH7aOA) by [Richard Virgosky](https://www.youtube.com/@RichardVirgosky). Watch it for the original idea. This repo adds my print settings, a two-part PLA + TPU design for parts that need to be stiff, and what I learned from the prints that failed.
-
 ## What you need
 
 | | |
